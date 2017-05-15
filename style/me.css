@@ -2,9 +2,14 @@
 	font-family: 'Lato', sans-serif;
 }
 
+.meTextFont {
+	font-size: 16px;
+}
+
 .meNav {
 	background-color: #fff;
     border-bottom-color: #fff;
+    opacity: 0.8;
 }
 
 .meGrey {
