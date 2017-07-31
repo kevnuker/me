@@ -23,3 +23,23 @@
 .meVerticalBottomSpace {
 	margin-bottom: 60px;
 }
+
+.cf1 {
+	background-color: #1e90ff;
+}
+
+.cf2 {
+	background-color: #8B0000;
+}
+
+.cf3 {
+	background-color: seagreen;
+}
+
+.bstyle {
+	background-color: #f7f5f5;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
