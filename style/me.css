@@ -24,16 +24,14 @@
 	margin-bottom: 60px;
 }
 
+.meVerticalTopSpace {
+	margin-top: 60px;
+}
+
 .cf1 {
 	background-color: #1e90ff;
-}
-
-.cf2 {
-	background-color: #8B0000;
-}
-
-.cf3 {
-	background-color: seagreen;
+	border-color: #1e90ff;
+	border-radius: 0px;
 }
 
 .bstyle {
