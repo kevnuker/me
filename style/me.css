@@ -32,6 +32,10 @@
 	margin-top: 60px;
 }
 
+.meVerticalLineSpace {
+	margin-top: 20px;
+}
+
 .cf1 {
 	background-color: #1e90ff;
 	border-color: #1e90ff;
@@ -56,4 +60,12 @@
 
 body {
   font-family: 'Lato', sans-serif;
+}
+
+p { 
+  text-align: justify
+}
+
+.liAlign { 
+  text-align: justify
 }
