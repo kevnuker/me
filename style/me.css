@@ -62,8 +62,14 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-p { 
-  text-align: left
+@media screen and (min-width: 768px) {
+   .meTextFont30{
+      text-align: justify;
+   }
+}
+
+p{
+   text-align: left;
 }
 
 .liAlign { 
