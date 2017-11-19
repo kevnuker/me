@@ -40,19 +40,65 @@
 			<div class="col-lg-1 col-md-1"></div>
 	        	<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
 	        		<h1 class="meText meGrey center meVerticalBottomSpace">Design Goal</h1>
-					<p class="meText meTextFont30 meGrey">Designers often synthesize design ideas in their minds before translating them to physical or digital medium. Synthesis of ideas in mind is done using mental imagery. One can define mental imagery, as a proto-visualization of the human cognitive process. Although it is not an actual image, it is a representation of physical reality in working memory. Mental synthesis of design occurs by complex manipulations of mental imagery. As the complexity of the design increases, the number and nature operations on mental imagery also increases . It is, therefore, often claimed that design tools (such as paper, computer aided design) can help offload cognitive load by externalizing the imagery to a physical or digital medium.</p>
-					<p class="meText meTextFont30 meGrey meVerticalBottomSpace">With the advent of augmented reality, we have finally a tool that could truly enable designers to work in three dimensions. Industry experts predict that almost all of future modeling and design will be done in immersive three dimensional environment. Therefore, the effectiveness of AR based design tool is of great practical importance to the design industry. The main goal of this project was to develop an AR enabled design interface; and use the interface to study the effectiveness of the interface as a design tool.</p>
+					<p class="meText meTextFont30 meGrey">Using mental imagery, designers often synthesize design ideas in their minds before translating them to a physical or a digital medium. Although it is not an actual image, it is a representation of physical reality in the working memory. Mental synthesis of a design idea is achieved by complex manipulations of mental imagery. As the complexity of the design increases, the number and nature operations required on mental imagery also increases. As a result, the mental effort used in the working memory (cognitive load) increases. Some say that externalizing this process using design tools such as paper or computer aided design (CAD) software can reduce the cognitive load. However, recent studies prove that such two dimensional interfaces are not compatible to mental imagery operations; therfore, they not very effective in reducing cognitive load.</p>
+					<p class="meText meTextFont30 meGrey meVerticalBottomSpace">With the advent of augmented reality (AR), we have finally a tool that could truly enable designers to work in three dimensions. Industry experts predict that almost all of future modeling and design will be done in immersive three dimensional environment. Therefore, the effectiveness of AR enabled design interface is of great practical importance to the design industry. The main goal of this project is to develop an AR enabled design interface; and use it to study it's effectiveness as a design tool.</p>
 					<h1 class="meText meGrey center row meVerticalBottomSpace">The road to design</h1>
 					<div class="col-lg-12 col-md-12 col-xs-12 thumb">
-	                    <img class="img-responsive" src="../assets/img/mrtl.jpg" alt="Goal">
+	                    <img class="img-responsive" src="../assets/img/mrtl.png" alt="Goal">
 	            	</div>
+	            	<h1 class="meText meGrey center meVerticalBottomSpace">Research and Analysis</h1>
+	            	<p class="meText meTextFont30 meGrey">The conceptual framework used to test the effectiveness of an AR enabled design interface is the Finke’s creative invention task. In this task, a participant is asked to construct a new object/design from a subset of primitives shown in the figure below.</p>
 	            	<div class="col-lg-12 col-md-12 col-xs-12 thumb meVerticalBottomSpace">
-	                    <img class="img-responsive" src="../assets/img/mrstory.jpg" alt="Goal">
+	                    <img class="img-responsive" src="../assets/img/primitives.png" alt="Primitives">
 	            	</div>
-					<h1 class="meText meGrey center meVerticalBottomSpace">Prototype</h1>
+	            	<p class="meText meTextFont30 meGrey"> A participant has to combine a given subset of primitives, to design a novel shape without changing the basic shape of the primitive. By doing so, this task tests the participants ability to create, inspect, and restructure mental imagery by externalizing it into an AR interface. For example, see how three basic shapes is used to design an umbrella object/design.</p>
+	            	<div class="col-lg-12 col-md-12 col-xs-12 thumb meVerticalBottomSpace">
+	                    <img class="img-responsive" src="../assets/img/umbrella.png" alt="Example of shape design">
+	            	</div>
+	            	<p class="meText meTextFont30 meGrey"> Target users of this interface are designers. For the purpose of understanding their needs, the data elicitation activity was broadly divided into two phases. In the first phase, a literature  review was undertaken to understand a designer’s work domains and issues. In the second phase, designers were interviewed to collect work activity data.</p>
+	            	<p class="meText meTextFont30 meGrey meVerticalBottomSpace">Contextual analysis was done by building a work activity affinity diagram (WAAD). The chief objective of contextual analysis was to identify common work patterns and thereby extract of functional requirements. For constructing a WAAD, first, work activity notes were synthesized from the raw work activity data. Then, the work activity notes were grouped into preliminary sections based on their content. Related sections were then joined to form clusters. Finally, clusters were further refined and labelled. The top level clusters labels in the WAAD are interaction, functionality, memory, and user experience as shown below.</p>
+	            	<div class="col-lg-12 col-md-12 col-xs-12 thumb meVerticalBottomSpace">
+	                    <img class="img-responsive" src="../assets/img/mr_waad.png" alt="WAAD">
+	            	</div>
+	            	<h1 class="meText meGrey center row meVerticalBottomSpace">Requirements</h1>
+	            	<p class="meText meTextFont30 meGrey">The following are the functional requirements of the interface that was extracted after contextual analysis:</p>
+					<div class="alert cf1" role="alert">
+					  <p class="meText meTextFont meGrey">Users shall be able to grab the primitives using hand gestures.</p>
+					</div>
+					<div class="alert cf1" role="alert">
+					  <p class="meText meTextFont meGrey">Users shall be able to effectively use gaze, hand gestures, and voice commands to manipulate the primitives.</p>
+					</div>
+					<div class="alert cf1" role="alert">
+					  <p class="meText meTextFont meGrey">Users shall be able to effectively change location, orientation, and the scale of the primitives.</p>
+					</div>
+					<div class="alert cf1" role="alert">
+					  <p class="meText meTextFont meGrey">Users shall be able to learn and use the application with minimal training.</p>
+					</div>
+					<div class="alert cf1" role="alert">
+					  <p class="meText meTextFont meGrey">Users shall be able to manipulate the primitives without having to use a visual menu or commands.</p>
+					</div>
+					<div class="alert cf1" role="alert">
+					  <p class="meText meTextFont meGrey">Users shall be able to undo any previous action.</p>
+					</div>
+					<div class="alert cf1" role="alert">
+					  <p class="meText meTextFont meGrey">Users shall be able to complete Finke’s creative invention task under two minutes.</p>
+					</div>
+					<h1 class="meText meGrey center row meVerticalBottomSpace">Design Informing Models</h1>
+					<p class="meText meTextFont30 meGrey">A physical model was constructed to give a physical setting to the real and the virtual content. It also shows the physical dimensions of the work environment and interaction space. A storyboard was also created to document the designer’s mental model. This storyboard documents the designer’s vision of the system and gives an overview of what it does.</p>
+					<div class="col-lg-12 col-md-12 col-xs-12 thumb meVerticalBottomSpace">
+	                    <img class="img-responsive" src="../assets/img/mr_pmodel.png" alt="Physical Model">
+	            	</div>
+					<div class="col-lg-12 col-md-12 col-xs-12 thumb meVerticalBottomSpace">
+	                    <img class="img-responsive" src="../assets/img/mrstory.jpg" alt="Storyboard">
+	            	</div>
+	            	<h1 class="meText meGrey center meVerticalBottomSpace">Design Production</h1>
 					<div class="embed-responsive embed-responsive-16by9 meVerticalBottomSpace">
 					  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qZ2bUVyy2MQ" allowfullscreen></iframe>
 					</div>
+					<h1 class="meText meGrey center meVerticalBottomSpace">Pilot Test</h1>
+					<p class="meText meTextFont30 meGrey meVerticalBottomSpace">Rapid iterative testing and evaluation (RITE) technique was used to evaluate the design. This technique could be classified as a quasi-empirical evaluation technique, as it collects qualitative data and gives a researcher the freedom and flexibility in terms of evaluation goals and approaches. Six graduate students were recruited as participants based on thier design experience. Qualitative data was collected using think aloud protocol. After every experimental session, a severity was assigned to problems/issues that were identified. Based on the severity, high priority issues were fixed before the next session. This process was iterated for all of the six participants.</p>
+					<h1 class="meText meGrey center meVerticalBottomSpace">Lessons Learned</h1>
+					<p class="meText meTextFont30 meGrey meVerticalBottomSpace"></p>
 	 			</div>
 	 		<div class="col-lg-1 col-md-1"></div>
 	 	</div>
