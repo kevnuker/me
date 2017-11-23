@@ -107,10 +107,10 @@ p{
 }
 
 .bg {
-	height: 690px;
-    background-image: url(../assets/img/about.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: .8;
-} 
+  background-image: url(../assets/img/about.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: .8;
+}
