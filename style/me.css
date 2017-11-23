@@ -44,6 +44,10 @@
     border-bottom-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
 }
 
 .meGrey {
@@ -103,7 +107,7 @@ p{
 }
 
 .bg {
-	height: 670px;
+	height: 690px;
     background-image: url(../assets/img/about.png);
     background-position: center;
     background-repeat: no-repeat;
