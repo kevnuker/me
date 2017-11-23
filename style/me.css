@@ -71,8 +71,8 @@
 }
 
 .cf1 {
-	background-color: #f7f5f5;
-	border-color: #f7f5f5;
+	background-color: #0097FF;
+	border-color: #0097FF;
 	border-radius: 0px;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #424242;
+    color: #fff;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
