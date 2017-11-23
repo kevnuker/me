@@ -11,10 +11,39 @@
 	font-size: 20px;
 }
 
+.meTextAboutFont {
+	font-size: 40px;
+	color: white;
+}
+
+.meTextAboutContentFont {
+	font-size: 24px;
+	color: white;
+}
+
+.meTextAboutLinkFont {
+	font-size: 24px;
+	color: #E72400;
+}
+
 .meNav {
 	background-color: #fff;
     border-bottom-color: #fff;
     opacity: 0.8;
+}
+
+.noNavMarginBotton {
+	margin-bottom: 0px;
+    background-color: #0097FF;
+    border-bottom-color: #0097FF;
+    margin-left: : 0px;
+    margin-right: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .meGrey {
@@ -72,3 +101,12 @@ body {
 p{
    text-align: left;
 }
+
+.bg {
+	height: 670px;
+    background-image: url(../assets/img/about.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+} 
